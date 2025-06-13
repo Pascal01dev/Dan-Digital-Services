@@ -1,0 +1,538 @@
+
+@media screen and (max-width: 500px){
+    *{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+
+/* HEADER SECTION STARTS HERE */
+header{
+    display: none;
+}
+
+#general-menu{
+    display: grid;
+}
+
+/* MENU HEADER STARTS HERE */
+#menu{
+    display: grid;
+    place-items: center;
+    width: 360px;
+    height: 50px;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    background-color: white;
+}
+
+.menu-content{
+    width: 340px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0px;
+    /* background-color: red; */
+}
+
+.menu-head{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.menu-head img{
+    width: 35px;
+    height: 25px;
+}
+
+.menu-head h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+/* MENU NAVIGATION STARTS HERE */
+#navigations{
+    width: 200px;
+    height: 250px;
+    margin-left: 160px;
+    background-color: palevioletred;
+    position: fixed;
+    margin-top: 0px;
+    display: none;
+    z-index: 1;
+
+}
+
+.nav-item {
+    display: flex;
+    align-items: center;
+    font-size: 0.8em;
+    gap: 10px;
+    padding-top: 15px;
+    margin-left: 10px;
+}
+
+
+.nav-item a{
+    color: white;
+    margin: 0px;
+}
+
+.cls{
+    width: 180px;
+    display: grid;
+    place-items: center;
+    margin-top: 20px;
+}
+
+
+/* HERO SECTION STARTS HERE */
+
+#hero{
+    width: 360px;
+    height: 625px;
+    display: grid;
+    place-items: center;
+    background-image: url(DDS/Derrick.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    background-color: rgb(4, 0, 2, 0.7);
+}
+
+.hero-content{
+    width: 330px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero-content svg{
+    display: grid;
+    width: 30px;
+    height: 30px;
+}
+
+.hero-content svg:hover{
+    transform: scale(1.2);
+    transition: .10s ease-in-out;
+}
+
+.hero-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.hero-text h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-size: 1.7em;
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+.hero-text p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-size: 0.8em;
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+
+.hero-text button{
+    background-color: palevioletred;
+    width: 170px;
+    height: 50px;
+    border: none;
+    border-radius: 30px;
+    margin-top: 10px;
+}
+
+.hero-text button:hover{
+    transform: scale(1.2);
+    transition: .10s ease-in-out;
+}
+
+.hero-text button a{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5em;
+}
+
+/* ABOUT SECTION STARTS HERE */
+#about{
+    width: 360px;
+    height: 700px;
+    display: grid;
+    place-items: center;
+}
+
+.about-content{
+    width: 300px;
+    height: 550px;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+}
+
+.about-video video{
+    width: 300px;
+    height: 250px;
+}
+
+.about-text{
+    width: 280px;
+    display: grid;
+    /* place-items: cente; */
+    text-align: left;cmd
+    text-wrap: balance;
+}
+
+.about-text h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    font-size: 1.7em;
+    margin-bottom: 20px;
+}
+
+.about-text p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    font-size: 1.2em;
+    
+}
+
+.about-text button{
+    background-color: palevioletred;
+    width: 170px;
+    height: 50px;
+    border: none;
+    border-radius: 30px;
+    margin-top: 20px;
+    
+}
+
+.about-text button:hover{
+    transform: scale(1.2);
+    transition: .10s ease-in-out;
+}
+
+.about-content button a{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.em;
+}
+
+#about-details{
+    width: 360px;
+    height: 675px;
+    display: grid;
+    place-items: center;
+    /* background-color: red; */
+}
+
+.about-details-content{
+    width: 360px;
+    /* background-color: white; */
+    text-align: center;
+}
+
+
+/* SERVICES SECTION STARTS HERE */
+#services{
+    width: 360px;
+    height: 2350px;
+    display: grid;
+    place-items: center;
+    /* background-color: rebeccapurple; */
+}
+
+#services h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    font-size: 1.7em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.services-content{
+    width: 300px;
+    height: 2500px;
+    display: grid;
+    grid-template-columns: repeat(1, 300px);
+    grid-template-rows: repeat(8, 260px);
+    grid-gap: 20px;
+    /* background-color: aqua; */
+}
+
+
+
+.services-content .service{
+    background-color: white;
+    box-shadow: 0 0 10px rgb(80, 72, 72);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.services-content .service:hover{
+    transform: scale(1.1);
+    transition: .10s ease-in-out;
+}
+
+.services-content .service h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.services-content .service p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+/* STAFF SECTION STARTS HERE */
+#staff{
+    width: 360px;
+    height: 2000px;
+    display: grid;
+    place-items: center;
+    margin-bottom: 20px;
+    /* background-color: red; */
+}
+
+#staff h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    font-size: 1.7em;
+    text-align: center;
+}
+
+.staff-content{
+    width: 300px;
+    height: 1900px;
+    display: grid;
+    grid-template-columns: repeat(1, 300px);
+    grid-template-rows: repeat(6, 300px);
+    grid-gap: 20px;
+    margin-top: 20px;
+    /* background-color: aqua; */
+}
+
+.staff{
+    background-color: white;
+    box-shadow: 0 0 20px gray;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.staff img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid palevioletred;
+}
+
+
+.staff h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    font-size: 1.5em;
+    text-align: center;
+    margin-bottom: 10px;
+    
+}
+
+.staff p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    font-size: 1em;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.media{
+    display: flex;
+    gap: 20px;
+}
+
+.staff a img{
+    display: grid;
+    width: 40px;
+    height: 40px;
+    border: 2px silid palevioletred;
+    border-radius: 50%;
+}
+
+.staff a img:hover{
+     width: 50px;
+    height: 50px;
+    transform: rotate(30deg);
+    transition: .1s ease-in-out;
+}
+
+
+#contact{
+    width: 360px;
+    height: 680px;
+    display: grid;
+    place-items: center;
+    /* background-color: palevioletred; */
+}
+
+#contact h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    font-size: 1.3em;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.contact-content{
+    width: 300px;
+    height: 670px;
+    display: flex;
+    flex-direction: column;
+    /* background-color: aqua; */
+}
+
+.contact-content .contacts1{
+    width: 300px;
+    height: 250px;
+    /* background-color: white; */
+}
+
+.contacts1 iframe{
+    width: 300px;
+    height: 200px;
+}
+
+.contact-content .contacts2{
+    width: 300px;
+    height: 390px;
+    /* background-color: white; */
+}
+
+
+
+.contacts2 input{
+    width: 300px;
+    height: 30px;
+    padding: 5px;
+    margin: 0px 10px 15px 0px;
+}
+
+.contacts2 textarea{
+    width: 300px;
+    height: 100px;
+    padding: 5px;
+    margin: 10px 10px 15px 0px;
+    resize: none;
+}
+
+.contacts2 button{
+    width: 300px;
+    height: 30px;
+    background-color: #3e8fd6;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 1em;
+    margin: 10px 10px 10px 0px;
+}
+/* FOOTER SECTION STARTS FROM HERE */
+#foot{
+    width: 360px;
+    height: 500px;
+    display: grid;
+    place-items: center;
+    background-color:rgba(10, 8, 23, 0.808);
+}
+
+.footer-content{
+    width: 300px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    /* background-color: aqua; */
+}
+
+/* .footer1{
+    width: 250px; */
+    /* height: 400px; */
+    /* background-color: red;
+} */
+
+.footer-item{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 5px;
+}
+
+.footer-item img{
+    display: grid;
+    width: 30px;
+    height: 30px;
+    background-color: white;;
+    border-radius: 50%;
+}
+
+/* .footer-item p{
+    font-family:'Times New Roman', Times, serif;
+    color:white;
+    font-size: 1em;
+    text-align: center;
+    margin-top: 5px;
+} */
+
+.footer1 h3{
+    font-family:'Times New Roman', Times, serif;
+    color:white;
+    font-size: 1.5em;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.footer1 p{
+    font-family:'Times New Roman', Times, serif;
+    color:white;
+    font-size: 1em;
+    margin-top: 5px;
+}
+
+.footer1 p a{
+    font-family:'Times New Roman', Times, serif;
+    color:white;
+    text-decoration: underline;
+    font-size: 1em;
+    margin-top: 5px;
+}
+
+.footer1 p a:hover{
+    text-decoration: underline;
+    color: palevioletred;
+}
+}
