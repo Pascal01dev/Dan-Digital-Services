@@ -211,6 +211,7 @@ nav a:hover{
 #services{
     width: 100vw;
     height: 80vh;
+    height: 90vh;
     display: grid;
     place-items: center;
     /* background-color: rebeccapurple; */
@@ -226,6 +227,8 @@ nav a:hover{
 
 .services-content{
     width: 90vw;
+
+    width: 89vw;
     height: 65vh;
     display: grid;
     grid-template-columns: repeat(4, 270px);
@@ -282,8 +285,9 @@ nav a:hover{
 .staff-content{
     width: 90vw;
     height: 70vh;
+    height: 75vh;
     display: grid;
-    grid-template-columns: repeat(3, 367px);
+    grid-template-columns: repeat(3, 370px);
     grid-template-rows: repeat(2, 300px);
     grid-gap: 20px;
     /* background-color: aqua; */
@@ -291,7 +295,7 @@ nav a:hover{
 
 .staff{
     background-color: white;
-    box-shadow: 0 0 20px gray;
+    box-shadow: 0 0 5px gray;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -300,7 +304,7 @@ nav a:hover{
 }
 
 .staff img{
-    width: 100px;
+    width: 75px;
     height: 100px;
     border-radius: 50%;
     border: 2px solid palevioletred;
