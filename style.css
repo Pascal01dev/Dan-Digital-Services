@@ -76,7 +76,7 @@ nav a:hover{
     background-size: cover;
     background-repeat: no-repeat;
     background-blend-mode: darken;
-    background-color: rgb(4, 0, 2, 0.7);
+    background-color: rgb(4, 0, 2, 0.5);
 }
 
 .hero-content{
@@ -210,8 +210,7 @@ nav a:hover{
 /* SERVICES SECTION STARTS HERE */
 #services{
     width: 100vw;
-    height: 80vh;
-    height: 90vh;
+    height: 110vh;
     display: grid;
     place-items: center;
     /* background-color: rebeccapurple; */
@@ -226,10 +225,8 @@ nav a:hover{
 }
 
 .services-content{
-    width: 90vw;
-
-    width: 89vw;
-    height: 65vh;
+    width: 84vw;
+    height: 90vh;
     display: grid;
     grid-template-columns: repeat(4, 270px);
     grid-template-rows: repeat(2, 260px);
@@ -269,7 +266,7 @@ nav a:hover{
 /* STAFF SECTION STARTS HERE */
 #staff{
     width: 100vw;
-    height: 100vh;
+    height: 120vh;
     display: grid;
     place-items: center;
     /* background-color: red; */
@@ -283,9 +280,8 @@ nav a:hover{
 }
 
 .staff-content{
-    width: 90vw;
-    height: 70vh;
-    height: 75vh;
+    width: 85vw;
+    height: 105vh;
     display: grid;
     grid-template-columns: repeat(3, 370px);
     grid-template-rows: repeat(2, 300px);
@@ -305,7 +301,7 @@ nav a:hover{
 
 .staff img{
     width: 75px;
-    height: 100px;
+    height: 75px;
     border-radius: 50%;
     border: 2px solid palevioletred;
 }
@@ -350,7 +346,7 @@ nav a:hover{
 
 #contact{
     width: 100vw;
-    height: 50vh;
+    height: 65vh;
     display: grid;
     place-items: center;
     /* background-color: palevioletred; */
@@ -365,7 +361,7 @@ nav a:hover{
 
 .contact-content{
     width: 90vw;
-    height: 40vh;
+    height: 60vh;
     display: flex;
     justify-content: space-between;
     /* background-color: aqua; */
